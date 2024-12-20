@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Netflix</div>
+    <nav class="menu">
+      <a href="#" class="nav-link" data-section="home">Home</a>
+      <a href="#" class="nav-link" data-section="tvshows">TV Shows</a>
+      <a href="#" class="nav-link" data-section="movies">Movies</a>
+      <a href="#" class="nav-link" data-section="popular">New & Popular</a>
+      <a href="#" class="nav-link" data-section="mylist">My List</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="content-section">
+      <h1>Welcome to Netflix</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <button class="hero-btn">Get Started</button>
+    </section>
+
+    <section id="tvshows" class="content-section hidden">
+      <h2>TV Shows</h2>
+      <div class="image-gallery">
+        <img src="https://via.placeholder.com/300x150?text=TV+Show+1" alt="TV Show 1">
+        <img src="https://via.placeholder.com/300x150?text=TV+Show+2" alt="TV Show 2">
+        <img src="https://via.placeholder.com/300x150?text=TV+Show+3" alt="TV Show 3">
+      </div>
+    </section>
+
+    <section id="movies" class="content-section hidden">
+      <h2>Movies</h2>
+      <div class="image-gallery">
+        <img src="https://via.placeholder.com/300x150?text=Movie+1" alt="Movie 1">
+        <img src="https://via.placeholder.com/300x150?text=Movie+2" alt="Movie 2">
+        <img src="https://via.placeholder.com/300x150?text=Movie+3" alt="Movie 3">
+      </div>
+    </section>
+
+    <section id="popular" class="content-section hidden">
+      <h2>New & Popular</h2>
+      <div class="image-gallery">
+        <img src="https://via.placeholder.com/300x150?text=Popular+1" alt="Popular 1">
+        <img src="https://via.placeholder.com/300x150?text=Popular+2" alt="Popular 2">
+        <img src="https://via.placeholder.com/300x150?text=Popular+3" alt="Popular 3">
+      </div>
+    </section>
+
+    <section id="mylist" class="content-section hidden">
+      <h2>My List</h2>
+      <div class="image-gallery">
+        <img src="https://via.placeholder.com/300x150?text=MyList+1" alt="MyList 1">
+        <img src="https://via.placeholder.com/300x150?text=MyList+2" alt="MyList 2">
+        <img src="https://via.placeholder.com/300x150?text=MyList+3" alt="MyList 3">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Netflix Clone &copy; 2024. Created by You.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
